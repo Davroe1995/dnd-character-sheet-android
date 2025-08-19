@@ -1,0 +1,400 @@
+[
+  {
+    "id": "fighter",
+    "name": "Fighter",
+    "description": "A master of martial combat, skilled with a variety of weapons and armor. Fighters learn the basics of all combat styles. Every fighter can swing an axe, fence with a rapier, wield a longsword or a greatsword, use a bow, and even trap foes in a net with some degree of skill.",
+    "hitDie": "d10",
+    "primaryAbility": ["Strength", "Dexterity"],
+    "savingThrowProficiencies": ["Strength", "Constitution"],
+    "skillChoices": 2,
+    "skillOptions": ["Acrobatics", "Animal Handling", "Athletics", "History", "Insight", "Intimidation", "Perception", "Survival"],
+    "armorProficiencies": ["All armor", "Shields"],
+    "weaponProficiencies": ["Simple weapons", "Martial weapons"],
+    "features": [
+      {
+        "level": 1,
+        "name": "Fighting Style",
+        "description": "You adopt a particular style of fighting as your specialty. Choose one of the following options: Archery, Defense, Dueling, Great Weapon Fighting, Protection, or Two-Weapon Fighting."
+      },
+      {
+        "level": 1,
+        "name": "Second Wind",
+        "description": "You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level."
+      },
+      {
+        "level": 2,
+        "name": "Action Surge",
+        "description": "You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action."
+      },
+      {
+        "level": 3,
+        "name": "Martial Archetype",
+        "description": "You choose an archetype that you strive to emulate in your combat styles and techniques. Choose Champion, Battle Master, or Eldritch Knight."
+      }
+    ]
+  },
+  {
+    "id": "wizard",
+    "name": "Wizard",
+    "description": "Wizards are supreme magic-users, defined and united as a class by the spells they cast. Drawing on the subtle weave of magic that permeates the cosmos, wizards cast spells of explosive fire, arcing lightning, subtle deception, and brute-force mind control.",
+    "hitDie": "d6",
+    "primaryAbility": ["Intelligence"],
+    "savingThrowProficiencies": ["Intelligence", "Wisdom"],
+    "skillChoices": 2,
+    "skillOptions": ["Arcana", "History", "Insight", "Investigation", "Medicine", "Religion"],
+    "armorProficiencies": ["None"],
+    "weaponProficiencies": ["Daggers", "Darts", "Slings", "Quarterstaffs", "Light crossbows"],
+    "features": [
+      {
+        "level": 1,
+        "name": "Spellcasting",
+        "description": "As a student of arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power."
+      },
+      {
+        "level": 1,
+        "name": "Arcane Recovery",
+        "description": "You have learned to regain some of your magical energy by studying your spellbook. Once per day when you finish a short rest, you can choose expended spell slots to recover."
+      },
+      {
+        "level": 2,
+        "name": "Arcane Tradition",
+        "description": "You choose an arcane tradition, shaping your practice of magic through one of eight schools: Abjuration, Conjuration, Divination, Enchantment, Evocation, Illusion, Necromancy, or Transmutation."
+      }
+    ]
+  },
+  {
+    "id": "rogue",
+    "name": "Rogue",
+    "description": "Rogues rely on skill, stealth, and their foes' vulnerabilities to get the upper hand in any situation. They have a knack for finding the solution to just about any problem, demonstrating a resourcefulness and versatility that is the cornerstone of any successful adventuring party.",
+    "hitDie": "d8",
+    "primaryAbility": ["Dexterity"],
+    "savingThrowProficiencies": ["Dexterity", "Intelligence"],
+    "skillChoices": 4,
+    "skillOptions": ["Acrobatics", "Athletics", "Deception", "Insight", "Intimidation", "Investigation", "Perception", "Performance", "Persuasion", "Sleight of Hand", "Stealth"],
+    "armorProficiencies": ["Light armor"],
+    "weaponProficiencies": ["Simple weapons", "Hand crossbows", "Longswords", "Rapiers", "Shortswords"],
+    "features": [
+      {
+        "level": 1,
+        "name": "Expertise",
+        "description": "Choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves' tools. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies."
+      },
+      {
+        "level": 1,
+        "name": "Sneak Attack",
+        "description": "You know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll."
+      },
+      {
+        "level": 1,
+        "name": "Thieves' Cant",
+        "description": "During your rogue training you learned thieves' cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation."
+      },
+      {
+        "level": 2,
+        "name": "Cunning Action",
+        "description": "You can use a bonus action on each of your turns in combat to take the Dash, Disengage, or Hide action."
+      }
+    ]
+  },
+  {
+    "id": "cleric",
+    "name": "Cleric",
+    "description": "Clerics are intermediaries between the mortal world and the distant planes of the gods. As varied as the gods they serve, clerics strive to embody the handiwork of their deities. No ordinary priest, a cleric is imbued with divine magic.",
+    "hitDie": "d8",
+    "primaryAbility": ["Wisdom"],
+    "savingThrowProficiencies": ["Wisdom", "Charisma"],
+    "skillChoices": 2,
+    "skillOptions": ["History", "Insight", "Medicine", "Persuasion", "Religion"],
+    "armorProficiencies": ["Light armor", "Medium armor", "Shields"],
+    "weaponProficiencies": ["Simple weapons"],
+    "features": [
+      {
+        "level": 1,
+        "name": "Spellcasting",
+        "description": "As a conduit for divine power, you can cast cleric spells."
+      },
+      {
+        "level": 1,
+        "name": "Divine Domain",
+        "description": "Choose one domain related to your deity: Knowledge, Life, Light, Nature, Tempest, Trickery, or War. Each domain provides examples of gods associated with it."
+      },
+      {
+        "level": 2,
+        "name": "Channel Divinity",
+        "description": "You gain the ability to channel divine energy directly from your deity, using that energy to fuel magical effects."
+      }
+    ]
+  },
+  {
+    "id": "ranger",
+    "name": "Ranger",
+    "description": "Warriors of the wilderness, rangers specialize in hunting the monsters that threaten the edges of civilization—humanoid raiders, rampaging beasts and monstrosities, terrible giants, and deadly dragons. They learn to track their quarry as a predator does, moving stealthily through the wilds.",
+    "hitDie": "d10",
+    "primaryAbility": ["Dexterity", "Wisdom"],
+    "savingThrowProficiencies": ["Strength", "Dexterity"],
+    "skillChoices": 3,
+    "skillOptions": ["Animal Handling", "Athletics", "Insight", "Investigation", "Nature", "Perception", "Stealth", "Survival"],
+    "armorProficiencies": ["Light armor", "Medium armor", "Shields"],
+    "weaponProficiencies": ["Simple weapons", "Martial weapons"],
+    "features": [
+      {
+        "level": 1,
+        "name": "Favored Enemy",
+        "description": "You have significant experience studying, tracking, hunting, and even talking to a certain type of creature."
+      },
+      {
+        "level": 1,
+        "name": "Natural Explorer",
+        "description": "You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions."
+      },
+      {
+        "level": 2,
+        "name": "Fighting Style",
+        "description": "You adopt a particular style of fighting as your specialty. Choose from Archery, Defense, Dueling, or Two-Weapon Fighting."
+      },
+      {
+        "level": 2,
+        "name": "Spellcasting",
+        "description": "You have learned to use the magical essence of nature to cast spells, much as a druid does."
+      }
+    ]
+  },
+  {
+    "id": "paladin",
+    "name": "Paladin",
+    "description": "Whether sworn before a god's altar and the witness of a priest, in a sacred glade before nature spirits and fey beings, or in a moment of desperation and grief with the dead as the only witness, a paladin's oath is a powerful bond.",
+    "hitDie": "d10",
+    "primaryAbility": ["Strength", "Charisma"],
+    "savingThrowProficiencies": ["Wisdom", "Charisma"],
+    "skillChoices": 2,
+    "skillOptions": ["Athletics", "Insight", "Intimidation", "Medicine", "Persuasion", "Religion"],
+    "armorProficiencies": ["All armor", "Shields"],
+    "weaponProficiencies": ["Simple weapons", "Martial weapons"],
+    "features": [
+      {
+        "level": 1,
+        "name": "Divine Sense",
+        "description": "The presence of strong evil registers on your senses like a noxious odor, and powerful good rings like heavenly music in your ears."
+      },
+      {
+        "level": 1,
+        "name": "Lay on Hands",
+        "description": "Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you take a long rest."
+      },
+      {
+        "level": 2,
+        "name": "Fighting Style",
+        "description": "You adopt a particular style of fighting as your specialty. Choose from Defense, Dueling, Great Weapon Fighting, or Protection."
+      },
+      {
+        "level": 2,
+        "name": "Spellcasting",
+        "description": "You have learned to draw on divine magic through meditation and prayer to cast spells as a cleric does."
+      }
+    ]
+  },
+  {
+    "id": "barbarian",
+    "name": "Barbarian",
+    "description": "A tall human tribesman strides through a blizzard, draped in fur and hefting his axe. He laughs as he charges toward the frost giant who dared poach his people's elk herd. A half-orc snarls at the latest challenger to her authority over their savage tribe.",
+    "hitDie": "d12",
+    "primaryAbility": ["Strength"],
+    "savingThrowProficiencies": ["Strength", "Constitution"],
+    "skillChoices": 2,
+    "skillOptions": ["Animal Handling", "Athletics", "Intimidation", "Nature", "Perception", "Survival"],
+    "armorProficiencies": ["Light armor", "Medium armor", "Shields"],
+    "weaponProficiencies": ["Simple weapons", "Martial weapons"],
+    "features": [
+      {
+        "level": 1,
+        "name": "Rage",
+        "description": "In battle, you fight with primal ferocity. On your turn, you can enter a rage as a bonus action."
+      },
+      {
+        "level": 1,
+        "name": "Unarmored Defense",
+        "description": "While you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Constitution modifier."
+      },
+      {
+        "level": 2,
+        "name": "Reckless Attack",
+        "description": "You can throw aside all concern for defense to attack with fierce desperation. When you make your first attack on your turn, you can decide to attack recklessly."
+      },
+      {
+        "level": 2,
+        "name": "Danger Sense",
+        "description": "You gain an uncanny sense of when things nearby aren't as they should be, giving you an edge when you dodge away from danger."
+      }
+    ]
+  },
+  {
+    "id": "bard",
+    "name": "Bard",
+    "description": "Whether scholar, skald, or scoundrel, a bard weaves magic through words and music to inspire allies, demoralize foes, manipulate minds, create illusions, and even heal wounds. The bard is a master of song, speech, and the magic they contain.",
+    "hitDie": "d8",
+    "primaryAbility": ["Charisma"],
+    "savingThrowProficiencies": ["Dexterity", "Charisma"],
+    "skillChoices": 3,
+    "skillOptions": ["Any"],
+    "armorProficiencies": ["Light armor"],
+    "weaponProficiencies": ["Simple weapons", "Hand crossbows", "Longswords", "Rapiers", "Shortswords"],
+    "features": [
+      {
+        "level": 1,
+        "name": "Spellcasting",
+        "description": "You have learned to untangle and reshape the fabric of reality in harmony with your wishes and music."
+      },
+      {
+        "level": 1,
+        "name": "Bardic Inspiration",
+        "description": "You can inspire others through stirring words or music. To do so, you use a bonus action on your turn to choose one creature other than yourself within 60 feet of you who can hear you."
+      },
+      {
+        "level": 2,
+        "name": "Jack of All Trades",
+        "description": "You can add half your proficiency bonus, rounded down, to any ability check you make that doesn't already include your proficiency bonus."
+      },
+      {
+        "level": 2,
+        "name": "Song of Rest",
+        "description": "You can use soothing music or oration to help revitalize your wounded allies during a short rest."
+      }
+    ]
+  },
+  {
+    "id": "druid",
+    "name": "Druid",
+    "description": "Whether calling on the elemental forces of nature or emulating the creatures of the animal world, druids are an embodiment of nature's resilience, cunning, and fury. They claim no mastery over nature. Instead, they see themselves as extensions of nature's indomitable will.",
+    "hitDie": "d8",
+    "primaryAbility": ["Wisdom"],
+    "savingThrowProficiencies": ["Intelligence", "Wisdom"],
+    "skillChoices": 2,
+    "skillOptions": ["Arcana", "Animal Handling", "Insight", "Medicine", "Nature", "Perception", "Religion", "Survival"],
+    "armorProficiencies": ["Light armor", "Medium armor", "Shields (non-metal)"],
+    "weaponProficiencies": ["Clubs", "Daggers", "Darts", "Javelins", "Maces", "Quarterstaffs", "Scimitars", "Sickles", "Slings", "Spears"],
+    "features": [
+      {
+        "level": 1,
+        "name": "Druidcraft",
+        "description": "You know the druidcraft cantrip."
+      },
+      {
+        "level": 1,
+        "name": "Spellcasting",
+        "description": "Drawing on the divine essence of nature itself, you can cast spells to shape that essence to your will."
+      },
+      {
+        "level": 2,
+        "name": "Wild Shape",
+        "description": "You can use your action to magically assume the shape of a beast that you have seen before."
+      },
+      {
+        "level": 2,
+        "name": "Druid Circle",
+        "description": "You choose to identify with a circle of druids: the Circle of the Land or the Circle of the Moon."
+      }
+    ]
+  },
+  {
+    "id": "monk",
+    "name": "Monk",
+    "description": "Whatever their discipline, monks are united in their ability to magically harness the energy that flows in their bodies. Whether channeled as a striking display of combat prowess or a subtler focus of defensive ability and speed, this energy infuses all that a monk does.",
+    "hitDie": "d8",
+    "primaryAbility": ["Dexterity", "Wisdom"],
+    "savingThrowProficiencies": ["Strength", "Dexterity"],
+    "skillChoices": 2,
+    "skillOptions": ["Acrobatics", "Athletics", "History", "Insight", "Religion", "Stealth"],
+    "armorProficiencies": ["None"],
+    "weaponProficiencies": ["Simple weapons", "Shortswords"],
+    "features": [
+      {
+        "level": 1,
+        "name": "Unarmored Defense",
+        "description": "While you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Wisdom modifier."
+      },
+      {
+        "level": 1,
+        "name": "Martial Arts",
+        "description": "You gain the following benefits while you are unarmed or wielding only monk weapons and you aren't wearing armor or wielding a shield."
+      },
+      {
+        "level": 2,
+        "name": "Ki",
+        "description": "Your training allows you to harness the mystic energy of ki. Your access to this energy is represented by a number of ki points."
+      },
+      {
+        "level": 2,
+        "name": "Unarmored Movement",
+        "description": "Your speed increases by 10 feet while you are not wearing armor or wielding a shield."
+      }
+    ]
+  },
+  {
+    "id": "sorcerer",
+    "name": "Sorcerer",
+    "description": "Sorcerers carry a magical birthright conferred upon them by an exotic bloodline, some otherworldly influence, or exposure to unknown cosmic forces. One can't study sorcery as one learns a language, any more than one can learn to live a legendary life.",
+    "hitDie": "d6",
+    "primaryAbility": ["Charisma"],
+    "savingThrowProficiencies": ["Constitution", "Charisma"],
+    "skillChoices": 2,
+    "skillOptions": ["Arcana", "Deception", "Insight", "Intimidation", "Persuasion", "Religion"],
+    "armorProficiencies": ["None"],
+    "weaponProficiencies": ["Daggers", "Darts", "Slings", "Quarterstaffs", "Light crossbows"],
+    "features": [
+      {
+        "level": 1,
+        "name": "Spellcasting",
+        "description": "An event in your past, or in the life of a parent or ancestor, left an indelible mark on you, infusing you with arcane magic."
+      },
+      {
+        "level": 1,
+        "name": "Sorcerous Origin",
+        "description": "Choose a sorcerous origin, which describes the source of your innate magical power: Draconic Bloodline or Wild Magic."
+      },
+      {
+        "level": 2,
+        "name": "Font of Magic",
+        "description": "You tap into a deep wellspring of magic within yourself. This wellspring is represented by sorcery points."
+      },
+      {
+        "level": 3,
+        "name": "Metamagic",
+        "description": "You gain the ability to twist your spells to suit your needs. You gain two of the following Metamagic options of your choice."
+      }
+    ]
+  },
+  {
+    "id": "warlock",
+    "name": "Warlock",
+    "description": "With a pseudodragon curled on his shoulder, a young elf in golden robes smiles warmly as he weaves a magical charm into his honeyed words and bends the palace sentinel to his will. As flames spring to life in her hands, a wizened human whispers the secret name of her demonic patron.",
+    "hitDie": "d8",
+    "primaryAbility": ["Charisma"],
+    "savingThrowProficiencies": ["Wisdom", "Charisma"],
+    "skillChoices": 2,
+    "skillOptions": ["Arcana", "Deception", "History", "Intimidation", "Investigation", "Nature", "Religion"],
+    "armorProficiencies": ["Light armor"],
+    "weaponProficiencies": ["Simple weapons"],
+    "features": [
+      {
+        "level": 1,
+        "name": "Otherworldly Patron",
+        "description": "You have struck a pact with an otherworldly being of your choice: the Archfey, the Fiend, or the Great Old One."
+      },
+      {
+        "level": 1,
+        "name": "Pact Magic",
+        "description": "Your arcane research and the magic bestowed on you by your patron have given you facility with spells."
+      },
+      {
+        "level": 2,
+        "name": "Eldritch Invocations",
+        "description": "In your study of occult lore, you have unearthed eldritch invocations, fragments of forbidden knowledge that imbue you with an abiding magical ability."
+      },
+      {
+        "level": 3,
+        "name": "Pact Boon",
+        "description": "Your otherworldly patron bestows a gift upon you for your loyal service. You gain one of the following features of your choice."
+      }
+    ]
+  }
+]
