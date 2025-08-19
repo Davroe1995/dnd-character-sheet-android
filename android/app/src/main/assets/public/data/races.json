@@ -1,0 +1,277 @@
+[
+  {
+    "id": "human",
+    "name": "Human",
+    "description": "Humans are the most adaptable and ambitious people among the common races. Whatever drives them, humans are the innovators, the achievers, and the pioneers of the worlds.",
+    "abilityScoreIncrease": {
+      "all": 1
+    },
+    "size": "Medium",
+    "speed": 30,
+    "languages": ["Common"],
+    "features": [
+      "Extra Language",
+      "Extra Skill",
+      "Versatile and adaptable to any class"
+    ],
+    "traits": [
+      {
+        "name": "Extra Language",
+        "description": "You can speak, read, and write one extra language of your choice."
+      },
+      {
+        "name": "Extra Skill",
+        "description": "You gain proficiency in one skill of your choice."
+      }
+    ]
+  },
+  {
+    "id": "elf",
+    "name": "Elf",
+    "description": "Elves are a magical people of otherworldly grace, living in the world but not entirely part of it. They live in places of ethereal beauty, in the midst of ancient forests or in silvery spires glittering with faerie light.",
+    "abilityScoreIncrease": {
+      "dexterity": 2
+    },
+    "size": "Medium",
+    "speed": 30,
+    "languages": ["Common", "Elvish"],
+    "features": [
+      "Darkvision",
+      "Keen Senses",
+      "Fey Ancestry",
+      "Trance"
+    ],
+    "traits": [
+      {
+        "name": "Darkvision",
+        "description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light."
+      },
+      {
+        "name": "Keen Senses",
+        "description": "You have proficiency with the Perception skill."
+      },
+      {
+        "name": "Fey Ancestry",
+        "description": "You have advantage on saving throws against being charmed, and magic can't put you to sleep."
+      },
+      {
+        "name": "Trance",
+        "description": "Elves don't need to sleep. Instead, they meditate deeply for 4 hours a day."
+      }
+    ]
+  },
+  {
+    "id": "dwarf",
+    "name": "Dwarf",
+    "description": "Bold and hardy, dwarves are known as skilled warriors, miners, and workers of stone and metal. Though they stand well under 5 feet tall, dwarves are so broad and compact that they can weigh as much as a human standing nearly two feet taller.",
+    "abilityScoreIncrease": {
+      "constitution": 2
+    },
+    "size": "Medium",
+    "speed": 25,
+    "languages": ["Common", "Dwarvish"],
+    "features": [
+      "Darkvision",
+      "Dwarven Resilience",
+      "Dwarven Combat Training",
+      "Stonecunning"
+    ],
+    "traits": [
+      {
+        "name": "Darkvision",
+        "description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light."
+      },
+      {
+        "name": "Dwarven Resilience",
+        "description": "You have advantage on saving throws against poison, and you have resistance against poison damage."
+      },
+      {
+        "name": "Dwarven Combat Training",
+        "description": "You have proficiency with battleaxes, handaxes, light hammers, and warhammers."
+      },
+      {
+        "name": "Stonecunning",
+        "description": "Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient and add double your proficiency bonus."
+      }
+    ]
+  },
+  {
+    "id": "halfling",
+    "name": "Halfling",
+    "description": "The diminutive halflings survive in a world full of larger creatures by avoiding notice or, barring that, avoiding offense. Standing about 3 feet tall, they appear relatively harmless and so have managed to survive for centuries.",
+    "abilityScoreIncrease": {
+      "dexterity": 2
+    },
+    "size": "Small",
+    "speed": 25,
+    "languages": ["Common", "Halfling"],
+    "features": [
+      "Lucky",
+      "Brave",
+      "Halfling Nimbleness"
+    ],
+    "traits": [
+      {
+        "name": "Lucky",
+        "description": "When you roll a 1 on the d20 for an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll."
+      },
+      {
+        "name": "Brave",
+        "description": "You have advantage on saving throws against being frightened."
+      },
+      {
+        "name": "Halfling Nimbleness",
+        "description": "You can move through the space of any creature that is of a size larger than yours."
+      }
+    ]
+  },
+  {
+    "id": "dragonborn",
+    "name": "Dragonborn",
+    "description": "Born of dragons, as their name proclaims, the dragonborn walk proudly through a world that greets them with fearful incomprehension. Shaped by draconic gods or the dragons themselves, dragonborn originally hatched from dragon eggs as a unique race.",
+    "abilityScoreIncrease": {
+      "strength": 2,
+      "charisma": 1
+    },
+    "size": "Medium",
+    "speed": 30,
+    "languages": ["Common", "Draconic"],
+    "features": [
+      "Draconic Ancestry",
+      "Breath Weapon",
+      "Damage Resistance"
+    ],
+    "traits": [
+      {
+        "name": "Draconic Ancestry",
+        "description": "You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type."
+      },
+      {
+        "name": "Breath Weapon",
+        "description": "You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation."
+      },
+      {
+        "name": "Damage Resistance",
+        "description": "You have resistance to the damage type associated with your draconic ancestry."
+      }
+    ]
+  },
+  {
+    "id": "gnome",
+    "name": "Gnome",
+    "description": "A gnome's energy and enthusiasm for living shines through every inch of his or her tiny body. Gnomes average slightly over 3 feet tall and weigh 40 to 45 pounds. Their tan or brown faces are usually adorned with broad smiles.",
+    "abilityScoreIncrease": {
+      "intelligence": 2
+    },
+    "size": "Small",
+    "speed": 25,
+    "languages": ["Common", "Gnomish"],
+    "features": [
+      "Darkvision",
+      "Gnome Cunning"
+    ],
+    "traits": [
+      {
+        "name": "Darkvision",
+        "description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light."
+      },
+      {
+        "name": "Gnome Cunning",
+        "description": "You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic."
+      }
+    ]
+  },
+  {
+    "id": "half-elf",
+    "name": "Half-Elf",
+    "description": "Walking in two worlds but truly belonging to neither, half-elves combine what some say are the best qualities of their elf and human parents: human curiosity, inventiveness, and ambition tempered by the refined senses, love of nature, and artistic tastes of the elves.",
+    "abilityScoreIncrease": {
+      "charisma": 2,
+      "choice": 2
+    },
+    "size": "Medium",
+    "speed": 30,
+    "languages": ["Common", "Elvish"],
+    "features": [
+      "Darkvision",
+      "Fey Ancestry",
+      "Extra Skills"
+    ],
+    "traits": [
+      {
+        "name": "Darkvision",
+        "description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light."
+      },
+      {
+        "name": "Fey Ancestry",
+        "description": "You have advantage on saving throws against being charmed, and magic can't put you to sleep."
+      },
+      {
+        "name": "Extra Skills",
+        "description": "You gain proficiency in two skills of your choice."
+      }
+    ]
+  },
+  {
+    "id": "half-orc",
+    "name": "Half-Orc",
+    "description": "Whether united under the leadership of a mighty warlock or having fought to a standstill after years of conflict, orc and human communities sometimes form alliances. When these alliances are sealed by marriages, half-orcs are born.",
+    "abilityScoreIncrease": {
+      "strength": 2,
+      "constitution": 1
+    },
+    "size": "Medium",
+    "speed": 30,
+    "languages": ["Common", "Orc"],
+    "features": [
+      "Darkvision",
+      "Relentless Endurance",
+      "Savage Attacks"
+    ],
+    "traits": [
+      {
+        "name": "Darkvision",
+        "description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light."
+      },
+      {
+        "name": "Relentless Endurance",
+        "description": "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest."
+      },
+      {
+        "name": "Savage Attacks",
+        "description": "When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
+      }
+    ]
+  },
+  {
+    "id": "tiefling",
+    "name": "Tiefling",
+    "description": "To be greeted with stares and whispers, to suffer violence and insult on the street, to see mistrust and fear in every eye: this is the lot of the tiefling. And to twist the knife, tieflings know that this is because a pact struck generations ago infused the essence of Asmodeus into their bloodline.",
+    "abilityScoreIncrease": {
+      "intelligence": 1,
+      "charisma": 2
+    },
+    "size": "Medium",
+    "speed": 30,
+    "languages": ["Common", "Infernal"],
+    "features": [
+      "Darkvision",
+      "Hellish Resistance",
+      "Infernal Legacy"
+    ],
+    "traits": [
+      {
+        "name": "Darkvision",
+        "description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light."
+      },
+      {
+        "name": "Hellish Resistance",
+        "description": "You have resistance to fire damage."
+      },
+      {
+        "name": "Infernal Legacy",
+        "description": "You know the thaumaturgy cantrip. When you reach 3rd level, you can cast the hellish rebuke spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest."
+      }
+    ]
+  }
+]
